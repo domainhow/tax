@@ -1,22 +1,235 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>How to Do Your Taxes?</title>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DB1M4SMTHN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>最值得信赖的加拿大税务知识和资源都在这里</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"
+    integrity="sha256-A47OwxL/nAN0ydiDFTSGX7ftbfTJTKgiJ0zqCuTPDh4=" crossorigin="anonymous" />
+  <link href="style.css" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DB1M4SMTHN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-DB1M4SMTHN');
-</script>
-  
+    gtag('config', 'G-DB1M4SMTHN');
+  </script>
 </head>
-<body>
 
-<h1>How to Do Your Taxes?</h1>
-<p></p>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-blue">
+    <img class="mr-3" src="tax_icon_white.png" alt="" width="40" height="40">
+    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="">首页<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">问题列表</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">会计师名录</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">事务所名录</a>
+        </li>
+        <li class="nav-item">
+          <div class="SearchBox">
+            <div class="inputArea">
+              <div class="inputWrap">
+                <div class="searchSpace search"></div>
+                <input type="text" class="inputBox search" maxlength="2048" name="question" placeholder="搜索问题与答案">
+              </div>
+            </div>
+            <button class="searchBtn" type="submit">
+              <div class="svgArea">
+                <span class="searchIcon">
+                  <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                  </svg>
+                </span>
+              </div>
+            </button>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav align-items-end">
+        <li class="nav-item">
+          <span></span>
+          <button class="btn btn-danger my-2 my-sm-0">提问</button>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">消息</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">通知</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">用户账号</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">个人资料</a>
+            <a class="dropdown-item" href="#">设置</a>
+            <a class="dropdown-item" href="#">退出登录</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="nav-scroller bg-white shadow-sm">
+    <nav class="nav nav-underline">
+      <a class="nav-link active" href="#">关注热点</a>
+      <a class="nav-link" href="#">知识探索</a>
+      <a class="nav-link" href="#">资源推荐</a>
+      <a class="nav-link" href="#">
+        你的税友<span class="badge badge-pill bg-light align-text-bottom">27</span>
+      </a>
+    </nav>
+  </div>
+
+  <main role="main" class="container">
+    <div class="d-flex align-items-center p-3 my-3 text-white-75 bg-blue rounded shadow-sm">
+      <div class="lh-100">
+        <h3 class="mb-0 text-white lh-100">还在为税务问题烦恼？</h3>
+        <br>
+        <p>最值得信赖的加拿大税务知识和资源都在这里！</p>
+      </div>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h4 class="border-bottom border-gray pb-2 mb-0">最新问题</h4>
+      <div class="media pt-3">
+        <div class="article">
+          <h5 class="question">2020年加拿大报税有什么新变化?</h5>
+          <span class="user-headline">
+            <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff"
+                dy=".3em">32x32</text>
+            </svg>
+            <span class="username"><strong class="text-gray-dark">@Tony Wang（认证专家）</strong>, DTT事务所高级合伙人</span>
+          </span>
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">
+            2020年最大的变化就是基本个人免税额 Basic Personal Amount (BPA)。BPA旨在“帮助所有加拿大人满足他们最基本的生活需求”，对于个人收入的一定数额不征收所得税。联邦税务委员会认为，“低收入家庭可用于自由支配的收入非常少。然而，这类家庭承担着与支付能力不成比例的购物税和物业税。”
+            <small class="d-block text-right mt-3">
+              <a href="#">阅读全文</a>
+            </small>
+          </p>
+        </div>
+      </div>
+      <div class="media pt-3">
+        <div class="article">
+          <h5 class="question">留学生应该如何报税?</h5>
+          <span class="user-headline">
+            <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#e83e8c" /><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text>
+          </svg>
+            <span class="username"><strong class="text-gray-dark">@Emily Chen（认证会员）</strong>, 注册会计师CPA，专注服务华人20年。</span>
+          </span>
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">
+            2019年，加拿大的BPA为$12069。也就是说，纳税人在2019年内所挣到的数额在这之内，则不用缴纳任何所得税。对于超过这一数额的纳税人来说，联邦税收抵免额（non-refundable credits）是通过对BPA征收最低联邦个人所得税税率(15%)来计算的，也就是说，2019年的额度为$1810。
+            最近有公开数据的纳税年度为2017年，在这一年里近2700万纳税人使用了BPA。
+            <small class="d-block text-right mt-3">
+              <a href="#">阅读全文</a>
+            </small>
+          </p>
+        </div>
+      </div>
+      <div class="media pt-3">
+        <div class="article">
+          <h5 class="question">房地产投资者应该如何合理避税?</h5>
+          <span class="user-headline">
+            <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#6f42c1" /><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text>
+            </svg>
+            <span class="username"><strong class="text-gray-dark">@HTC会计师事务所（已认证官方账号）</strong>, 多伦多最专业的房地产税务事务所</span>
+          </span>
+          <p class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">
+            联邦税收抵免额（non-refundable credits）是通过对BPA征收最低联邦个人所得税税率(15%)来计算的，也就是说，2019年的额度为$1810。
+            最近有公开数据的纳税年度为2017年，在这一年里近2700万纳税人使用了BPA。
+            <small class="d-block text-right mt-3">
+              <a href="#">阅读全文</a>
+            </small>
+          </p>
+          
+        </div>
+      </div>
+      <small class="d-block text-right mt-3">
+        <a href="#">更多热门回答</a>
+      </small>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h4 class="border-bottom border-gray pb-2 mb-0">常见问题</h4>
+      <div class="media text-muted pt-3">
+        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+        </svg>
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Full Name</strong>
+            <a href="#">Follow</a>
+          </div>
+          <span class="d-block">@username</span>
+        </div>
+      </div>
+      <div class="media text-muted pt-3">
+        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+        </svg>
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Full Name</strong>
+            <a href="#">Follow</a>
+          </div>
+          <span class="d-block">@username</span>
+        </div>
+      </div>
+      <div class="media text-muted pt-3">
+        <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text>
+        </svg>
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Full Name</strong>
+            <a href="#">Follow</a>
+          </div>
+          <span class="d-block">@username</span>
+        </div>
+      </div>
+      <small class="d-block text-right mt-3">
+        <a href="#">All suggestions</a>
+      </small>
+    </div>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossorigin="anonymous"></script>
+  <script src="offcanvas.js"></script>
 </body>
+
 </html>
